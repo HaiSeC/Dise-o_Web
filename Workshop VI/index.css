@@ -1,0 +1,100 @@
+#top{
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+#top div{
+    background-color: yellow;
+    align-self: flex-start;
+    color: black;
+}
+
+#cont {
+    
+    margin-top: 20px;
+}
+
+#menu{
+    background-color: orange;
+    
+}
+#Places{
+    display: block;
+}
+#list{
+    display: none;
+}
+div{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+footer{
+    background-color: rgb(146, 132, 158);
+    margin-top: 10px;
+}
+
+#cards {
+    background-color: white;
+}
+
+@media only screen and (min-width:600px){
+    #top{
+        background-color: yellow;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #top div{
+        background-color: yellow;
+        align-self: center;
+        color: black;
+    }
+    
+    #cont{
+        display: flex;
+        align-items: center;
+        background-color: orange;
+        height: 100px;
+        margin-right: 10px;
+    }
+
+    #cards {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: stretch;
+        justify-content: space-between;
+    }
+
+    #menu {
+        width: 100px;
+    }
+
+    #second_cont {
+        width: 45%;
+        margin-top: 10px;
+    }
+
+    #third_cont {
+        background-color: white;
+        width: 30%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+    }
+
+    #third_cont div {
+        margin-top: 10px;
+    }
+
+    #Places{
+        display: none;
+    }
+    #list{
+        display: block;
+    }
+
+}
